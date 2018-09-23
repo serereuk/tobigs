@@ -1,8 +1,12 @@
+#1)
+
 def coinmaster(temp):
     return max(temp[temp.index(min(temp)):])-min(temp)
 coin = [10300,9600,9800,8200,7800,8300,9500,9800,10200,9500]
 coinmaster(coin)
 
+
+#2)
 import numpy as np
 from sys import stdin
 
